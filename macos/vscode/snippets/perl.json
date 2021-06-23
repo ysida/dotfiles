@@ -1,0 +1,42 @@
+{
+	"header": {
+		"prefix": "skheader",
+		"body": [
+			"#!/usr/bin/perl",
+			"use warnings;",
+			"use strict",
+			"",
+			""
+		],
+		"description": "header"
+	},
+	"read file": {
+		"prefix": "skreadfile",
+		"body": [
+			"my $filename = '$1';",
+			"open my $fh, '<', $filename or die \"Can't open file $!\";",
+			"my $${2:file_name} = do { local $/; <$fh> };",
+			"print $file_content;"
+		],
+		"description": "read a file"
+	},
+	"split join": {
+		"prefix": "sksplitjoin",
+		"body": [
+			"my @lines = split /\\n/, $file_content;",
+			"foreach (@lines) { } ",
+			"$file_content = join \"\\n\", @lines; ",
+		],
+		"description": "split join"
+	},
+	"write file": {
+		"prefix": "skwritefile",
+		"body": [
+			"my $filename2 = 'output.json';",
+			"open(FH, '>', $filename2) or die $!;",
+			"print FH $file_content;",
+			"close(FH);",
+		],
+		"description": "split join"
+	},
+}

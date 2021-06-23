@@ -1,0 +1,432 @@
+[
+    {
+        "key": "ctrl+h",
+        "command": "highlightwords.addHighlight"
+    },
+    {
+        "key": "ctrl+alt+h",
+        "command": "highlightwords.removeAllHighlights"
+    },
+    {
+        "key": "cmd+l",
+        "command": "editor.action.deleteLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+d",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+,",
+        "command": "workbench.files.action.collapseExplorerFolders"
+    },
+    {
+        "key": "alt+.",
+        "command": "workbench.files.action.showActiveFileInExplorer"
+    },
+    {
+        "key": "alt+cmd+.",
+        "command": "list.collapseAll"
+    },
+    {
+        "key": "ctrl+alt+r",
+        "command": "workbench.action.reloadWindow"
+    },
+    {
+        "key": "ctrl+.",
+        "command": "bracket-pair-colorizer-2.expandBracketSelection"
+    },
+    {
+        "key": "ctrl+shift+.",
+        "command": "bracket-pair-colorizer-2.undoBracketSelection"
+    },
+    {
+        "key": "ctrl+alt+d",
+        "command": "flutter.launchEmulator"
+    },
+    {
+        "key": "alt+d",
+        "command": "flutter.selectDevice"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "editor.action.toggleMinimap"
+    },
+    {
+        "key": "ctrl+z",
+        "command": "workbench.action.toggleZenMode"
+    },
+    {
+        "key": "ctrl+s",
+        "command": "saveAll"
+    },
+    {
+        "key": "alt+cmd+w",
+        "command": "workbench.action.closeOtherEditors"
+    },
+    {
+        "key": "alt+cmd+q",
+        "command": "workbench.action.closeEditorsToTheLeft"
+    },
+    {
+        "key": "alt+cmd+e",
+        "command": "workbench.action.closeEditorsToTheRight"
+    },
+    // quick fix
+    {
+        "key": "cmd+.",
+        "command": "editor.action.quickFix"
+    },
+    {
+        "key": "cmd+m",
+        "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
+        "key": "cmd+m",
+        "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
+        "key": "ctrl+shift+down",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+up",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+cmd+1",
+        "command": "toggleFindCaseSensitive",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+cmd+2",
+        "command": "toggleFindWholeWord",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+cmd+3",
+        "command": "toggleFindRegex",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+cmd+4",
+        "command": "toggleFindInSelection",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+cmd+1",
+        "command": "toggleSearchCaseSensitive",
+        "when": "searchViewletFocus"
+    },
+    {
+        "key": "alt+cmd+2",
+        "command": "toggleSearchWholeWord",
+        "when": "searchViewletFocus"
+    },
+    {
+        "key": "alt+cmd+3",
+        "command": "toggleSearchRegex",
+        "when": "searchViewletFocus"
+    },
+    {
+        "key": "alt+cmd+4",
+        "command": "toggleFindInSelection",
+        "when": "searchViewletFocus"
+    },
+    {
+        "key": "cmd+r",
+        "command": "editor.action.startFindReplaceAction"
+    },
+    {
+        "key": "alt+cmd+`",
+        "command": "editor.action.startFindReplaceAction"
+    },
+    {
+        "key": "cmd+'",
+        "command": "workbench.action.togglePanel"
+    },
+    {
+        "key": "cmd+;",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "cmd+shift+'",
+        "command": "workbench.action.togglePanelPosition",
+    },
+    {
+        "key": "alt+o",
+        "command": "outline.focus"
+    },
+    {
+        "key": "alt+f",
+        "command": "favorites.focus"
+    },
+    {
+        "key": "alt+]",
+        "command": "workbench.action.focusPreviousGroup"
+    },
+    {
+        "key": "alt+[",
+        "command": "workbench.action.focusNextGroup"
+    },
+    {
+        "key": "ctrl+]",
+        "command": "workbench.action.focusPreviousGroup"
+    },
+    {
+        "key": "ctrl+[",
+        "command": "workbench.action.focusNextGroup"
+    },
+    {
+        "key": "cmd+`",
+        "command": "workbench.action.focusNextGroup"
+    },
+    {
+        "key": "cmd+shift+`",
+        "command": "workbench.action.focusPreviousGroup"
+    },
+    {
+        "key": "cmd+Escape",
+        "command": "toggleVim"
+    },
+    {
+        "key": "cmd+b",
+        "command": "debug.toggleBreakpoint"
+    },
+    {
+        "key": "cmd+alt+b",
+        "command": "debug.enableOrDisableBreakpoint"
+    },
+    {
+        "key": "alt+shift+b",
+        "command": "-workbench.debug.viewlet.action.disableAllBreakpoints"
+    },
+    {
+        "key": "cmd+shift+b",
+        "command": "workbench.debug.viewlet.action.enableAllBreakpoints"
+    },
+    {
+        "key": "cmd+alt+shift+b",
+        "command": "workbench.debug.viewlet.action.disableAllBreakpoints"
+    },
+    {
+        "key": "alt+shift+b",
+        "command": "workbench.debug.viewlet.action.removeAllBreakpoints"
+    },
+    {
+        "key": "alt+b",
+        "command": "debug.toggleBreakpoint"
+    },
+    {
+        "key": "cmd+b",
+        "command": "editor.debug.action.toggleBreakpoint",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+b",
+        "command": "editor.debug.action.toggleBreakpoint",
+        "when": "breakpointsFocused && !breakpointSelected"
+    },
+    {
+        "key": "cmd+alt+b",
+        "command": "debug.enableOrDisableBreakpoint"
+    },
+    {
+        "key": "alt+Escape",
+        "command": "debug.enableOrDisableBreakpoint"
+    },
+    {
+        "key": "ctrl+1",
+        "command": "workbench.actions.view.toggleProblems"
+    },
+    {
+        "key": "ctrl+2",
+        "command": "workbench.action.output.toggleOutput"
+    },
+    {
+        "key": "ctrl+3",
+        "command": "workbench.debug.action.toggleRepl"
+    },
+    {
+        "key": "ctrl+4",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "alt+e",
+        "command": "editor.debug.action.selectionToRepl"
+    },
+    {
+        "key": "alt+r",
+        "command": "editor.debug.action.runToCursor"
+    },
+    {
+        "key": "tab",
+        "command": "extension.vim_tab",
+        "when": "editorFocus && vim.active && !inDebugRepl && vim.mode != 'Insert' && editorLangId != 'magit'"
+    },
+    {
+        "key": "tab",
+        "command": "-extension.vim_tab",
+        "when": "editorFocus && vim.active && !inDebugRepl && vim.mode != 'Insert'"
+    },
+    {
+        "key": "x",
+        "command": "magit.discard-at-point",
+        "when": "editorTextFocus && editorLangId == 'magit' && vim.mode =~ /^(?!SearchInProgressMode|CommandlineInProgress).*$/"
+    },
+    {
+        "key": "k",
+        "command": "-magit.discard-at-point"
+    },
+    {
+        "key": "-",
+        "command": "magit.reverse-at-point",
+        "when": "editorTextFocus && editorLangId == 'magit' && vim.mode =~ /^(?!SearchInProgressMode|CommandlineInProgress).*$/"
+    },
+    {
+        "key": "v",
+        "command": "-magit.reverse-at-point"
+    },
+    {
+        "key": "shift+-",
+        "command": "magit.reverting",
+        "when": "editorTextFocus && editorLangId == 'magit' && vim.mode =~ /^(?!SearchInProgressMode|CommandlineInProgress).*$/"
+    },
+    {
+        "key": "shift+v",
+        "command": "-magit.reverting"
+    },
+    {
+        "key": "shift+o",
+        "command": "magit.resetting",
+        "when": "editorTextFocus && editorLangId == 'magit' && vim.mode =~ /^(?!SearchInProgressMode|CommandlineInProgress).*$/"
+    },
+    {
+        "key": "shift+x",
+        "command": "-magit.resetting"
+    },
+    {
+        "key": "x",
+        "command": "-magit.reset-mixed"
+    },
+    {
+        "key": "ctrl+u x",
+        "command": "-magit.reset-hard"
+    },
+    {
+        "key": "y",
+        "command": "-magit.show-refs"
+    },
+    {
+        "key": "y",
+        "command": "vspacecode.showMagitRefMenu",
+        "when": "editorTextFocus && editorLangId == 'magit' && vim.mode == 'Normal'"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.quickOpenSelectNext",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "workbench.action.quickOpenSelectPrevious",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "selectPrevSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "acceptSelectedSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "showNextParameterHint",
+        "when": "editorFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "showPrevParameterHint",
+        "when": "editorFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "file-browser.stepOut",
+        "when": "inFileBrowser"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "file-browser.stepIn",
+        "when": "inFileBrowser"
+    },
+    {
+        "key": "ctrl+alt+`",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "alt+shift+l",
+        "command": "editor.action.organizeImports",
+        "when": "editorTextFocus && !editorReadonly && supportedCodeAction =~ /(\\s|^)source\\.organizeImports\\b/"
+    },
+    {
+        "key": "alt+shift+p",
+        "command": "fileextswitch",
+        "args": {
+            "extensions": [
+                ".page.dart",
+                ".fragment.dart",
+                ".bloc.dart",
+            ],
+            "useOtherColumn": false
+        },
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+shift+o",
+        "command": "fileextswitch",
+        "args": {
+            "extensions": [
+                ".bloc.dart",
+                ".page.dart",
+                ".fragment.dart",
+            ],
+            "useOtherColumn": false
+        },
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+shift+i",
+        "command": "fileextswitch",
+        "args": {
+            "extensions": [
+                ".event.dart",
+                ".bloc.dart",
+            ],
+            "useOtherColumn": false
+        },
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+shift+u",
+        "command": "fileextswitch",
+        "args": {
+            "extensions": [
+                ".state.dart",
+                ".bloc.dart",
+            ],
+            "useOtherColumn": false
+        },
+        "when": "editorTextFocus"
+    },
+]
